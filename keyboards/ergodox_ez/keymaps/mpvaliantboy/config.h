@@ -34,7 +34,7 @@
 /* fix space cadet rollover issue */
 #undef DISABLE_SPACE_CADET_ROLLOVER
 
-#undef PREVENT_STUCK_MODIFIERS
+//#undef PREVENT_STUCK_MODIFIERS
 
 #undef DEBOUNCE
 #define DEBOUNCE    3
