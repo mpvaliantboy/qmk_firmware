@@ -52,8 +52,10 @@
 
 /* disable action features */
 //#define NO_ACTION_LAYER
-#define NO_ACTION_TAPPING
-#define NO_ACTION_ONESHOT
+// the following 2 have to be disabled for one shot
+//#define NO_ACTION_TAPPING
+//#define NO_ACTION_ONESHOT
+#define ONESHOT_TAP_TOGGLE 3  /* Tapping this number of times holds the key until tapped this number of times again. */
 #define NO_ACTION_MACRO
 #define NO_ACTION_FUNCTION
 
