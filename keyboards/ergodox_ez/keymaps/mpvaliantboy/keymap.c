@@ -35,7 +35,7 @@ enum layers {
   FNCTN,
 };
 
-static uint8_t counter[26];
+static uint8_t counter[36];
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 /* Keymap BASE: Basic layer
@@ -434,7 +434,7 @@ void matrix_init_user(void) {
 };
 
 void check_spam(void) {
-  for (int offset = 0; offset < 26; offset++) {
+  for (int offset = 0; offset < 36; offset++) {
     if (counter[offset] && counter[offset]++ >= SPAM_INITIAL) {
       counter[offset] = SPAM_INITIAL - SPAM_INTERVAL + 1;
       uint8_t original_keycode = offset + KC_A;
