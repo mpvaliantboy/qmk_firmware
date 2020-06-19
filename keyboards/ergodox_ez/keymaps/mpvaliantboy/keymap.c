@@ -151,8 +151,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     KC_GRV,       KC_1,         KC_2,         KC_3,         KC_4,         KC_5,         KC_MUTE,
     TG(FNCTN),    KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,         KC_VOLU,
     KC_CAPS,      KC_A,         KC_S,         KC_D,         KC_F,         KC_G,
-    OSM(MOD_LSFT),KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,         KC_VOLD,
-    OSM(MOD_LCTL),KC_LGUI,      KC_LALT,      KC_LEFT,      KC_RGHT,
+    KC_LSFT,      KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,         KC_VOLD,
+    KC_LCTL,      KC_LGUI,      KC_LALT,      KC_LEFT,      KC_RGHT,
 
                                                                           KC_ESC,       KC_LSFT,
                                                                                         KC_HOME,
@@ -174,7 +174,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ____________, SPAM(KC_1),   SPAM(KC_2),   SPAM(KC_3),   SPAM(KC_4),   SPAM(KC_5),   ____________,
     ____________, KC_S,         SPAM(KC_Q),   SPAM(KC_W),   SPAM(KC_E),   SPAM(KC_R),
     KC_LALT,      SPAM(KC_D),   SPAM(KC_6),   SPAM(KC_7),   SPAM(KC_F),   KC_T,         ____________,
-    KC_LCTL,      KC_LSFT,      ____________, KC_B,         KC_P,
+    ____________, KC_LSFT,      ____________, KC_B,         KC_P,
 
                                                                           ____________, ____________,
                                                                                         KC_C,
@@ -437,8 +437,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     ____________, KC_1,         KC_2,         KC_3,         KC_4,         KC_5,         ____________,
     ____________, KC_Q,         KC_W,         KC_E,         KC_R,         KC_T,         ____________,
     ____________, KC_A,         KC_S,         KC_D,         KC_F,         KC_G,
-    OSM(MOD_LSFT),KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,         ____________,
-    OSM(MOD_LCTL),KC_LGUI,      ____________, KC_LEFT,      KC_RGHT,
+    KC_LSFT,      KC_Z,         KC_X,         KC_C,         KC_V,         KC_B,         ____________,
+    ____________, KC_LGUI,      ____________, KC_LEFT,      KC_RGHT,
 
                                                                           ____________, ____________,
                                                                                         KC_HOME,
